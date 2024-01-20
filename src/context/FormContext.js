@@ -1,4 +1,4 @@
-import { createContext,useState,useEffect } from "react";
+import { createContext,useState } from "react";
 
 const FormContext= createContext({})
 
@@ -10,7 +10,9 @@ export const FormProvider = ({children}) =>{
         3 :'Set recovery emails',
         4 :'Wallet Holder username Info',
     }
+
     const [page,setPage] = useState (0)
+    
     const [data,setData]= useState({
         ownerEmail:"",
         passWord:"",
@@ -19,6 +21,7 @@ export const FormProvider = ({children}) =>{
         walletOwnerUserName:"",
     });
     const handleChange = e => {
+        console.log("Input changed:", e.target.value);
         const type = e.target.type
 
         const name = e.target.name
@@ -31,10 +34,12 @@ export const FormProvider = ({children}) =>{
             ...prevData,
             [name]: value
         }))
-    }
+    };
+    
     const { recoveryEmail2, ...requiredInputs } = data
 
     const canSubmit = [...Object.values(requiredInputs)].every(Boolean) && page ===Object.keys(title).length - 1
+    
     const canNextPage1 =Object.keys(data)
         .filter(key => key.startsWith('owner'))
         .map(key =>data[key])
@@ -51,8 +56,10 @@ export const FormProvider = ({children}) =>{
         .filter(key => key.startsWith('wallet'))
         .map(key =>data[key])
         .every(Boolean)
+    const submitHide = page !== Object.keys(title).length -1
+ //   const disableNext = ( page === 0 && !canNextPage1) || ( page === 0 && !canNextPage2) ||( page === 0 && !canNextPage3) || ( page === 0 && !canNextPage4)
     return(
-        <FormContext.Provider value={{title,page,setPage,data,setData, canSubmit,handleChange}}>
+        <FormContext.Provider value={{title,page,setPage,data,setData, canSubmit,handleChange, submitHide}}>
             {children}
         </FormContext.Provider>
     )

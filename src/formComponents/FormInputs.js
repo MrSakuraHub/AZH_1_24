@@ -3,6 +3,7 @@ import WalletCreate from "./walletCreate"
 import RecoveryEmail from "./recoveryEmailpage"
 import SecurePage from "./securePage"
 import PasswordSet from "./setPass"
+import UserName from "./userName"
 
 
 const FormInputs = () => {
@@ -12,6 +13,7 @@ const FormInputs = () => {
       1:<PasswordSet/>,
       2:<SecurePage/>,
       3:<RecoveryEmail/>,
+      4:<UserName/>,
         //remember to include form pages or individual form components
 
     }

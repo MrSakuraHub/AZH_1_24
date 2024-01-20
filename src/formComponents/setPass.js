@@ -7,8 +7,8 @@ const PasswordSet = () => {
         <div>
             <label for="password" className="label">Password</label>
             <input type="password" id="password" value={data.passWord} onChange={handleChange} placeholder="password"/>
-            /*another field to repeat password to confirm*/
-            <button type="submit">Confirm Password</button>
+           {  /*another field to repeat password to confirm*/}
+        
         </div>
     )
 

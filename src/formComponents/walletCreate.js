@@ -1,22 +1,29 @@
 import useFormContext from "../hooks/useFormContext"
-import '../styles/create.css'
+import email from "../resources/mail-outline.svg"
+
 
 const WalletCreate = () => {
   const {data, handleChange} = useFormContext()
   const content =(
     <>
-        <label For="emailOrMobile" className="label">
+        <label htmlFor="emailOrMobile" className="label">
           Email or mobile number
         </label>
-        <input 
-            type="text" 
+        <div className="input-box">
+          <input 
+            type="email" 
             id="emailOrMobile" 
+            name="emailOrMobile"
             value={data.ownerEmail} 
             onChange={handleChange} 
+            pattern="([A-Z])[\w+.]{1,}"
             placeholder="Email@email.com"
         />
-      
-        <button type="submit">Create wallet</button>
+    
+        <img src={email} alt="" className="icons"/>
+        </div>
+       
+
         <p>Already a user? <a href="/login">Log in instead</a></p>
       </>
   )

@@ -10,14 +10,14 @@ const UserName = () => {
         <h3>Finally!</h3>
         <h4>How should we call you</h4>
       </div>
-      //needed component for avatar
+     
       <div>
         <label for="wallet-name" className="label">
         Username
         </label>
         <input type="text" id="wallet-name" onChange={handleChange} value={data.walletOwnerUserName} placeholder="username"/>
         <button type="submit">Complete Registration</button>
-        <button type="submit">Go to my wallet</button>//edit this button
+        <button type="submit">Go to my wallet</button>
       </div>
     </>
   )

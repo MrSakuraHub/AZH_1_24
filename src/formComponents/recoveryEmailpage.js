@@ -9,7 +9,7 @@ const RecoveryEmail = () => {
       <input type="text" id="email-one" value={data.recoveryEmail1} onChange={handleChange} placeholder="Email@email.com"/>
       <label for="email-two" className="label"> First Email address</label>
       <input type="text" id="email-two" value={data.recoveryEmail2} onChange={handleChange} placeholder="Email@email.com"/>
-      <button type="submit">Submit Emails</button>
+    
     </>
   )
   return content
