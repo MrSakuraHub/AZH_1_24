@@ -12,11 +12,11 @@ export const FormProvider = ({children}) =>{
     }
     const [page,setPage] = useState (0)
     const [data,setData]= useState({
-        walletOwnerEmail:"",
-        password:"",
+        ownerEmail:"",
+        passWord:"",
         recoveryEmail1:"",
         recoveryEmail2:"",
-        walletOwnerName:"",
+        walletOwnerUserName:"",
     });
     const handleChange = e => {
         const type = e.target.type
@@ -35,8 +35,24 @@ export const FormProvider = ({children}) =>{
     const { recoveryEmail2, ...requiredInputs } = data
 
     const canSubmit = [...Object.values(requiredInputs)].every(Boolean) && page ===Object.keys(title).length - 1
+    const canNextPage1 =Object.keys(data)
+        .filter(key => key.startsWith('owner'))
+        .map(key =>data[key])
+        .every(Boolean)
+    const canNextPage2 =Object.keys(data)
+        .filter(key => key.startsWith('pass'))
+        .map(key =>data[key])
+        .every(Boolean)
+    const canNextPage3 =Object.keys(data)
+        .filter(key => key.startsWith('recovery'))
+        .map(key =>data[key])
+        .every(Boolean)
+    const canNextPage4 =Object.keys(data)
+        .filter(key => key.startsWith('wallet'))
+        .map(key =>data[key])
+        .every(Boolean)
     return(
-        <FormContext.Provider value={{title,page,setPage,data,setData, canSubmit}}>
+        <FormContext.Provider value={{title,page,setPage,data,setData, canSubmit,handleChange}}>
             {children}
         </FormContext.Provider>
     )
