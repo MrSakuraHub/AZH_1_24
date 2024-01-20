@@ -1,4 +1,4 @@
-import Form from './containers/form';
+import Form from './formComponents/form';
 import './App.css';
 
 function App() {

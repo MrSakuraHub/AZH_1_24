@@ -4,10 +4,10 @@ const FormContext= createContext({})
 
 export const FormProvider = ({children}) =>{
     const title ={
-        0 :'Create wallet Info',
-        1 :'Password creation Info',
-        2 :'Secure wallet Info',
-        3 :'Recovery Emails Info',
+        0 :'Create a wallet',
+        1 :'Set a password for your wallet',
+        2 :'',
+        3 :'Set recovery emails',
         4 :'Wallet Holder username Info',
     }
     const [page,setPage] = useState (0)
