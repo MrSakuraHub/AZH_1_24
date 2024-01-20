@@ -8,7 +8,7 @@ export const FormProvider = ({children}) =>{
         1 :'Set a password for your wallet',
         2 :'',
         3 :'Set recovery emails',
-        4 :'Wallet Holder username Info',
+        4 :'',
     }
 
     const [page,setPage] = useState (0)

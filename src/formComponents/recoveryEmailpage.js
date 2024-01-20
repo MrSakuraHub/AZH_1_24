@@ -1,16 +1,23 @@
 import useFormContext from "../hooks/useFormContext"
+import '../styles/create.css'
 
 const RecoveryEmail = () => {
   const{ data, handleChange}= useFormContext()
   const content = (
-    <>
+    <div className="header-place" >
       <p>Add 2 emails or mobile number that you trust for combined recovery access if you forget your password</p>
-      <label for="email-one" className="label"> First Email address</label>
-      <input type="text" id="email-one" value={data.recoveryEmail1} onChange={handleChange} placeholder="Email@email.com"/>
-      <label for="email-two" className="label"> First Email address</label>
-      <input type="text" id="email-two" value={data.recoveryEmail2} onChange={handleChange} placeholder="Email@email.com"/>
-    
-    </>
+      <div className="input-section">
+        <label for="email-one" className="label"> First Email address</label>
+        <div className="input-box">
+           <input type="text" id="email-one" className= "input" value={data.recoveryEmail1} onChange={handleChange} placeholder="Email@email.com"/>
+        </div>
+        <label for="email-two" className="label"> First Email address</label>
+        <div className="input-box">
+          <input type="text" id="email-two" className="input" value={data.recoveryEmail2} onChange={handleChange} placeholder="Email@email.com"/>
+      
+        </div>
+        </div>
+    </div>
   )
   return content
 }

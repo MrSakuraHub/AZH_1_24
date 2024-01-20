@@ -1,0 +1,22 @@
+
+#password{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.header-place, .container,.input-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.input-section{
+    text-align: left;
+}
+input{
+    margin-bottom: 1rem;
+    width: 50%;
+}
+p{
+    text-align: center;
+}

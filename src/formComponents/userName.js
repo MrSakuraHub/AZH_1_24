@@ -1,4 +1,6 @@
 import useFormContext from "../hooks/useFormContext";
+import '../styles/create.css'
+import '../styles/secure.css'
 
 
 
@@ -6,18 +8,19 @@ const UserName = () => {
   const {data, handleChange} = useFormContext()
   const content = (
     <>
-      <div className="header-text">
+      <div className="header-place">
         <h3>Finally!</h3>
         <h4>How should we call you</h4>
       </div>
      
-      <div>
+      <div className="container">
         <label for="wallet-name" className="label">
-        Username
+        Your Name
         </label>
-        <input type="text" id="wallet-name" onChange={handleChange} value={data.walletOwnerUserName} placeholder="username"/>
-        <button type="submit">Complete Registration</button>
-        <button type="submit">Go to my wallet</button>
+        <div className="input-box">
+          <input type="text" id="wallet-name" className="input" onChange={handleChange} value={data.walletOwnerUserName} placeholder="username"/>
+        </div>
+       
       </div>
     </>
   )

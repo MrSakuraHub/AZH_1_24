@@ -21,7 +21,7 @@
   justify-content: center;
   background-color: brown;
   width:45vw;
-  height: 50vh;
+  height: fit-content;
 }
 
 .wallet-form header{
@@ -44,6 +44,27 @@
   opacity: 0.2px;
 
 }
-.wallet-form input{
+.wallet-form .input-box{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: 1.7rem;
   margin-bottom: 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+.input-box{
+  width: 70%;
+}
+.input-box .input{
+  
+  margin-top: 1rem;
+  margin-left: 5px;
+  height:1.5rem;
+  border: none;
+  width:90%;
+}
+.wallet-form  button{
+  color: #3D7064;
+
 }
