@@ -21,15 +21,17 @@ export default function Form(){
         console.log(JSON.stringify(data))
     }
     const content =(
-        <form onSubmit={handleSubmit} className='wallet-form'>
-            <header>
-             <h2>{title[page]}</h2>           
-            </header>
-            <FormInputs/>
-            <button type="button" disabled={disableNext} className='button' onClick={handleNext}>Next</button>
-            <button type="submit" disabled={!canSubmit} className='button'>Submit Details</button>
+        <div className='area'>
+            <form onSubmit={handleSubmit} className='wallet-form'>
+                <header>
+                <h2>{title[page]}</h2>           
+                </header>
+                <FormInputs/>
+                <button type="button" disabled={disableNext} className='button' onClick={handleNext}>Next</button>
+                <button type="submit" disabled={!canSubmit} className='button'>Submit Details</button>
 
-        </form>
+            </form>
+        </div>
     )
     
     return content

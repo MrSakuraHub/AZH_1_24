@@ -59,7 +59,7 @@ export const FormProvider = ({children}) =>{
     const submitHide = page !== Object.keys(title).length -1
  //   const disableNext = ( page === 0 && !canNextPage1) || ( page === 0 && !canNextPage2) ||( page === 0 && !canNextPage3) || ( page === 0 && !canNextPage4)
     return(
-        <FormContext.Provider value={{title,page,setPage,data,setData, canSubmit,handleChange, submitHide}}>
+        <FormContext.Provider value={{title,page,setPage,data,setData, canSubmit,handleChange, submitHide}} >
             {children}
         </FormContext.Provider>
     )
