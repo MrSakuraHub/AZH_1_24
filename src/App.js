@@ -7,10 +7,17 @@ import { FormProvider } from './context/FormContext';
 import Form from './formComponents/form';
 
 function App() {
-  return (
-    <FormProvider>
-      <Form/>
-    </FormProvider>
+  return
+   (
+    <div>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='signup' element={<SignUp />}/>
+          <Route path='wallet' element={<Wallet />}/>
+        </Routes>
+      </Router>
+  </div>
   );
 }
 
