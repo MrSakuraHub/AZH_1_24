@@ -4,9 +4,12 @@ import './App.css';
 
 function App() {
   return (
-    <FormProvider>
-      <Form/>
-    </FormProvider>
+    <>
+     <FormProvider>
+       <Form/>
+     </FormProvider>
+    
+    </>
   );
 }
 
