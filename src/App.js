@@ -1,12 +1,18 @@
-import Form from './formComponents/form';
-import { FormProvider } from './context/FormContext';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar'
 import './App.css';
+import SignUp from './pages/SignUp';
 
 function App() {
   return (
-    <FormProvider>
-      <Form/>
-    </FormProvider>
+    <div>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='signup' element={<SignUp />}/>
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
