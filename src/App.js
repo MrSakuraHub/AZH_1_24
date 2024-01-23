@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path='signup' element={<SignUp />}/>
           <Route path='wallet' element={<Wallet />}/>
