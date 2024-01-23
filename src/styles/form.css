@@ -39,6 +39,7 @@ p{
   line-height: 32px;
   letter-spacing: 0.02em;
   text-align: center;
+ 
 
 }
 .wallet-form button{
@@ -49,11 +50,35 @@ p{
   border: none;
   margin-bottom: 1rem;
   opacity: 0.2px;
+  color: #3D7064;
 
 }
 .wallet-form label{
-  margin-bottom: 0.5rem;
+ 
+  background-color: chocolate;
 }
+.form-content{
+  background-color: darkgray;
+  width: 40vw;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.header-place{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+.form-content input{
+  margin-top: 0.5rem;
+}
+.input-box{
+
+}
+/* 
 .wallet-form .input-box{
   background-color: white;
   display: flex;
@@ -63,9 +88,11 @@ p{
   border: 2px solid black;
   border-radius: 0.5rem;
 }
-.input-box{
-  width: 70%;
+.input-section label{
+    margin-bottom: 0.5rem;
+  
 }
+
 .input-box .input{
   
   margin-top: 1rem;
@@ -74,15 +101,13 @@ p{
   border: none;
   width:90%;
 }
-.wallet-form  button{
-  color: #3D7064;
 
-}
-.header-place, .container,.input-section{
+.wallet-form {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
   flex-direction: column;
-  width: 100%;
+  
+  
 }
+*/

@@ -13,7 +13,7 @@ const UserName = () => {
         <h4>How should we call you</h4>
       </div>
      
-      <div className="container">
+      <div className="form-content">
         <label for="wallet-name" className="label">
         Your Name
         </label>
