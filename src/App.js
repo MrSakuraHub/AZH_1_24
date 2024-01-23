@@ -3,9 +3,11 @@ import Navbar from './components/Navbar'
 import './App.css';
 import SignUp from './pages/SignUp';
 import Wallet from './pages/Wallet';
+import { FormProvider } from './context/FormContext';
+import Form from './formComponents/form';
 
 function App() {
-  return (
+  return(
     <div>
       <Router>
         <Navbar/>
@@ -14,7 +16,7 @@ function App() {
           <Route path='wallet' element={<Wallet />}/>
         </Routes>
       </Router>
-    </div>
+  </div>
   );
 }
 
