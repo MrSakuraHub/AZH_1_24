@@ -1,6 +1,6 @@
 import useFormContext from '../hooks/useFormContext'
 import FormInputs from './FormInputs'
-import '../styles/create.css'
+import '../styles/form.css'
 
 export default function Form(){
     const{

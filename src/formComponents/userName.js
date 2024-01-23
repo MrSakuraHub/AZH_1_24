@@ -1,6 +1,6 @@
 import useFormContext from "../hooks/useFormContext";
-import '../styles/create.css'
-import '../styles/secure.css'
+import '../styles/form.css'
+
 
 
 

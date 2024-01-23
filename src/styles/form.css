@@ -1,3 +1,10 @@
+input{
+  margin-bottom: 1rem;
+  width: 50%;
+}
+p{
+  text-align: center;
+}
 .icons{
   width: 30px;
   position: relative;
@@ -44,6 +51,9 @@
   opacity: 0.2px;
 
 }
+.wallet-form label{
+  margin-bottom: 0.5rem;
+}
 .wallet-form .input-box{
   background-color: white;
   display: flex;
@@ -67,4 +77,12 @@
 .wallet-form  button{
   color: #3D7064;
 
+}
+.header-place, .container,.input-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  flex-direction: column;
+  width: 100%;
 }

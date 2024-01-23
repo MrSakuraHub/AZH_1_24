@@ -7,8 +7,7 @@ import { FormProvider } from './context/FormContext';
 import Form from './formComponents/form';
 
 function App() {
-  return
-   (
+  return(
     <div>
       <Router>
         <Navbar />

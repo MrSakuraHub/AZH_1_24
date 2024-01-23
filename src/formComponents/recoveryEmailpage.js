@@ -1,5 +1,5 @@
 import useFormContext from "../hooks/useFormContext"
-import '../styles/create.css'
+import '../styles/form.css'
 
 const RecoveryEmail = () => {
   const{ data, handleChange}= useFormContext()
@@ -16,7 +16,7 @@ const RecoveryEmail = () => {
           <input type="text" id="email-two" className="input" value={data.recoveryEmail2} onChange={handleChange} placeholder="Email@email.com"/>
       
         </div>
-        </div>
+      </div>
     </div>
   )
   return content

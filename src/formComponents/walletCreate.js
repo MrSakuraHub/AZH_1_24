@@ -1,6 +1,6 @@
 import useFormContext from "../hooks/useFormContext"
 import email from "../resources/mail-outline.svg"
-import '../styles/create.css'
+import '../styles/form.css'
 
 
 const WalletCreate = () => {

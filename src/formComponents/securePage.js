@@ -1,4 +1,4 @@
-import '../styles/secure.css'
+import '../styles/form.css'
 import wallet from '../resources/Wallet EUR.png'
 
 const SecurePage = () => {
