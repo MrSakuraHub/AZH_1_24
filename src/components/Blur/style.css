@@ -1,0 +1,25 @@
+.blur {
+  background: linear-gradient(180deg, rgb(67.81, 0, 155) 0%, rgb(34.94, 111.9, 202.25) 100%);
+  border-radius: 527px;
+  filter: blur(200px);
+  height: 1054px;
+  width: 1054px;
+}
+
+.blur .circle {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgb(178, 59, 121) 55.38deg,
+    rgb(255, 0, 52.05) 168.62deg,
+    rgb(255, 91.86, 91.86) 229.32deg,
+    rgb(255, 167.3, 177.06) 293.9deg,
+    rgb(234, 168, 176) 360deg
+  );
+  border-radius: 403.5px;
+  filter: blur(400px);
+  height: 807px;
+  left: 20px;
+  position: relative;
+  top: 186px;
+  width: 807px;
+}

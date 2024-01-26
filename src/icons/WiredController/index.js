@@ -1,0 +1,1 @@
+export { WiredController } from "./WiredController";
