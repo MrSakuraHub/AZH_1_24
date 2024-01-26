@@ -1,5 +1,6 @@
 import useFormContext from "../hooks/useFormContext"
 import email from "../resources/mail-outline.svg"
+import '../styles/form.css'
 
 
 const WalletCreate = () => {
@@ -16,6 +17,7 @@ const WalletCreate = () => {
             name="emailOrMobile"
             value={data.ownerEmail} 
             onChange={handleChange} 
+            className="input"
             pattern="([A-Z])[\w+.]{1,}"
             placeholder="Email@email.com"
         />

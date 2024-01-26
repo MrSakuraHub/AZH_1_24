@@ -8,7 +8,7 @@ export const FormProvider = ({children}) =>{
         1 :'Set a password for your wallet',
         2 :'',
         3 :'Set recovery emails',
-        4 :'Wallet Holder username Info',
+        4 :'',
     }
 
     const [page,setPage] = useState (0)
@@ -59,7 +59,7 @@ export const FormProvider = ({children}) =>{
     const submitHide = page !== Object.keys(title).length -1
  //   const disableNext = ( page === 0 && !canNextPage1) || ( page === 0 && !canNextPage2) ||( page === 0 && !canNextPage3) || ( page === 0 && !canNextPage4)
     return(
-        <FormContext.Provider value={{title,page,setPage,data,setData, canSubmit,handleChange, submitHide}}>
+        <FormContext.Provider value={{title,page,setPage,data,setData, canSubmit,handleChange, submitHide}} >
             {children}
         </FormContext.Provider>
     )
