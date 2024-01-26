@@ -1,0 +1,135 @@
+.button {
+  all: unset;
+  align-items: center;
+  border-radius: 200px;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 12px 16px;
+  position: relative;
+}
+
+.button .mail {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.button .send-money {
+  font-family: var(--COOL-button-font-family);
+  font-size: var(--COOL-button-font-size);
+  font-style: var(--COOL-button-font-style);
+  font-weight: var(--COOL-button-font-weight);
+  letter-spacing: var(--COOL-button-letter-spacing);
+  line-height: var(--COOL-button-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button.pressed {
+  background-color: var(--coolgreen-800);
+}
+
+.button.hover {
+  border: 2px solid;
+}
+
+.button.secondary.hover {
+  background-color: var(--coolgreen-700);
+  border-color: var(--coolgreen-100);
+}
+
+.button.default.primary {
+  background-color: var(--coolgreen-700);
+}
+
+.button.tertiary.disabled {
+  background-color: var(--coolwhiteprimary);
+  opacity: 0.2;
+}
+
+.button.primary.hover {
+  background-color: var(--coolwhiteprimary);
+  border-color: var(--coolgreen-700);
+}
+
+.button.disabled.secondary {
+  background-color: var(--coolgrey-300);
+}
+
+.button.default.tertiary {
+  background-color: var(--coolwhiteprimary);
+  box-shadow: var(--button-shadow);
+}
+
+.button.tertiary.hover {
+  background-color: var(--coolgreen-700);
+  border-color: var(--coolgreen-100);
+  box-shadow: var(--button-shadow);
+}
+
+.button.default.secondary {
+  background-color: var(--coolgreen-100);
+}
+
+.button.disabled.primary {
+  background-color: var(--coolgrey-500);
+}
+
+.button.disabled .send-money {
+  margin-top: -1px;
+}
+
+.button.pressed .send-money {
+  color: var(--coolwhiteprimary);
+  margin-top: -2px;
+}
+
+.button.hover .send-money {
+  margin-top: -2px;
+}
+
+.button.default .send-money {
+  margin-top: -1px;
+}
+
+.button.secondary.hover .send-money {
+  color: var(--coolgreen-100);
+}
+
+.button.default.primary .send-money {
+  color: var(--coolwhiteprimary);
+}
+
+.button.tertiary.disabled .send-money {
+  color: var(--coolgreen-700);
+}
+
+.button.primary.hover .send-money {
+  color: var(--coolgreen-700);
+}
+
+.button.disabled.secondary .send-money {
+  color: var(--coolgreen-700);
+  opacity: 0.3;
+}
+
+.button.default.tertiary .send-money {
+  color: var(--coolgreen-700);
+}
+
+.button.tertiary.hover .send-money {
+  color: var(--coolgreen-100);
+}
+
+.button.default.secondary .send-money {
+  color: var(--coolgreen-700);
+}
+
+.button.disabled.primary .send-money {
+  color: var(--coolwhiteprimary);
+  opacity: 0.3;
+}
