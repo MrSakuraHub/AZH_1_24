@@ -5,8 +5,6 @@ import SignUp from './pages/SignUp';
 import Wallet from './pages/Wallet';
 import './styles/style.css';
 import './styles/styleguide.css';
-import { FormProvider } from './context/FormContext';
-import Form from './formComponents/form';
 
 
 function App() {
