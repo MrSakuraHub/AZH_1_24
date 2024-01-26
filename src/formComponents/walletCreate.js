@@ -14,8 +14,8 @@ const WalletCreate = () => {
           <div className="input-box">
             <input 
               type="email" 
-              id="emailOrMobile" 
-              name="emailOrMobile"
+              id="ownerEmail" 
+              name="ownerEmail"
               value={data.ownerEmail} 
               onChange={handleChange} 
               className="input"

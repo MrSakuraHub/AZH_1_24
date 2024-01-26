@@ -3,8 +3,6 @@ import Navbar from './components/Navbar'
 import './App.css';
 import SignUp from './pages/SignUp';
 import Wallet from './pages/Wallet';
-import { FormProvider } from './context/FormContext';
-import Form from './formComponents/form';
 
 function App() {
   return(

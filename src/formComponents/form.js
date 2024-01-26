@@ -11,8 +11,9 @@ export default function Form(){
         canSubmit,
         submitHide,
         disableNext,
+        nextHide,
     } = useFormContext()
-    const handlePrev = () => setPage(prev => prev - 1)
+   
 
     const handleNext = () => setPage(prev => prev + 1)
 
@@ -27,9 +28,8 @@ export default function Form(){
                 <h2>{title[page]}</h2>           
                 </header>
                 <FormInputs/>
-                <button type="button" disabled={disableNext} className='button' onClick={handleNext}>Next</button>
-                <button type="submit" disabled={!canSubmit} className='button'>Submit Details</button>
-
+                <button type="button" className={`button ${nextHide}`} onClick={handleNext} >Next</button>
+                <button type="submit" className={`button ${submitHide}`} disabled={!canSubmit}>Submit</button>
             </form>
         </div>
     )

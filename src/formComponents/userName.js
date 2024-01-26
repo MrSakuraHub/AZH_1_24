@@ -14,11 +14,11 @@ const UserName = () => {
       </div>
      
       <div className="form-content">
-        <label for="wallet-name" className="label">
+        <label htmlFor="wallet-name" className="label">
         Your Name
         </label>
         <div className="input-box">
-          <input type="text" id="wallet-name" className="input" onChange={handleChange} value={data.walletOwnerUserName} placeholder="username"/>
+          <input type="text" id="walletOwnerUserName" name="walletOwnerUserName" className="input" pattern="([A-Z])[\w+.]{1,}" onChange={handleChange} value={data.walletOwnerUserName} placeholder="username"/>
         </div>
        
       </div>

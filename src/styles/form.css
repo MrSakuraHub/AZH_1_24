@@ -1,6 +1,8 @@
-input{
-  margin-bottom: 1rem;
-  width: 50%;
+input {
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 90%;
+  
 }
 p{
   text-align: center;
@@ -49,16 +51,14 @@ p{
   border-radius: 0.7rem;
   border: none;
   margin-bottom: 1rem;
-  opacity: 0.2px;
+  margin-top: 1rem;
+ 
   color: #3D7064;
 
 }
-.wallet-form label{
- 
-  background-color: chocolate;
-}
+
 .form-content{
-  background-color: darkgray;
+ 
   width: 40vw;
   margin-bottom: 1rem;
   display: flex;
