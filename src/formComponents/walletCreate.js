@@ -1,7 +1,5 @@
 import useFormContext from "../hooks/useFormContext"
 
-import '../styles/form.css'
-
 
 const WalletCreate = () => {
   const {data, handleChange} = useFormContext()
@@ -11,7 +9,7 @@ const WalletCreate = () => {
           <label htmlFor="emailOrMobile" className="label">
             Email or mobile number
           </label>
-          <div className="input-box">
+          
             <input 
               type="email" 
               id="ownerEmail" 
@@ -22,7 +20,6 @@ const WalletCreate = () => {
               pattern="([A-Z])[\w+.]{1,}"
               placeholder="Email@email.com"
           />
-          </div>
           <p>Already a user? <a href="/login">Log in instead</a></p>
         </div>
       </div>

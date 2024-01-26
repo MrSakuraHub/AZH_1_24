@@ -2,6 +2,7 @@ input {
   padding: 0.5rem;
   border-radius: 10px;
   width: 90%;
+  border: 1px black;
   
 }
 p{
@@ -75,39 +76,4 @@ p{
 .form-content input{
   margin-top: 0.5rem;
 }
-.input-box{
 
-}
-/* 
-.wallet-form .input-box{
-  background-color: white;
-  display: flex;
-  align-items: center;
-  height: 1.7rem;
-  margin-bottom: 1rem;
-  border: 2px solid black;
-  border-radius: 0.5rem;
-}
-.input-section label{
-    margin-bottom: 0.5rem;
-  
-}
-
-.input-box .input{
-  
-  margin-top: 1rem;
-  margin-left: 5px;
-  height:1.5rem;
-  border: none;
-  width:90%;
-}
-
-.wallet-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  
-  
-}
-*/

@@ -1,7 +1,4 @@
 import useFormContext from "../hooks/useFormContext";
-import '../styles/form.css'
-
-
 
 
 const UserName = () => {
@@ -17,10 +14,10 @@ const UserName = () => {
         <label htmlFor="wallet-name" className="label">
         Your Name
         </label>
-        <div className="input-box">
-          <input type="text" id="walletOwnerUserName" name="walletOwnerUserName" className="input" pattern="([A-Z])[\w+.]{1,}" onChange={handleChange} value={data.walletOwnerUserName} placeholder="username"/>
-        </div>
        
+        <input type="text" id="walletOwnerUserName" name="walletOwnerUserName" 
+          className="input" pattern="([A-Z])[\w+.]{1,}" onChange={handleChange} 
+          value={data.walletOwnerUserName} placeholder="username"/>       
       </div>
     </>
   )

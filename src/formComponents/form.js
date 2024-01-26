@@ -29,7 +29,7 @@ export default function Form(){
                 </header>
                 <FormInputs/>
                 <button type="button" className={`button ${nextHide}`} onClick={handleNext} >Next</button>
-                <button type="submit" className={`button ${submitHide}`} disabled={!canSubmit}>Submit</button>
+                <button type="submit" className={`button ${submitHide}`} >Submit</button>
             </form>
         </div>
     )
