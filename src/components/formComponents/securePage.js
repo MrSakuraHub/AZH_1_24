@@ -1,5 +1,5 @@
-import '../styles/form.css'
-import wallet from '../resources/Wallet EUR.png'
+
+import wallet from '../../resources/Wallet EUR.png'
 
 const SecurePage = () => {
   const content =(

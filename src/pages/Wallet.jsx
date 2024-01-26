@@ -30,7 +30,7 @@ import "../styles/style.css";
 import WalletTotal from "../components/WalletTotal";
 import '../styles/styleguide.css';
 import '../index.css';
-import '../styles/create.css';
+
 
 function Wallet () {
   return (

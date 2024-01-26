@@ -1,4 +1,4 @@
-import Form from '../formComponents/form';
+import Form from '../components/formComponents/form';
 import { FormProvider } from '../context/FormContext';
 import '../App.css';
 

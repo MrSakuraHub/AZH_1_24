@@ -1,5 +1,4 @@
-import useFormContext from "../hooks/useFormContext"
-import '../styles/form.css'
+import useFormContext from "../../hooks/useFormContext"
 
 const RecoveryEmail = () => {
   const{ data, handleChange}= useFormContext()
