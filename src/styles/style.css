@@ -1,631 +1,175 @@
-
-    .f {
-       background-color: #ffffff99;  display: flex;  flex-direction: row;  justify-content: center;  width: 100%; 
-    }
-  
-
-  
-
-    .f .overlap-group-wrapper {
-       background-color: #ffffff99;  height: 800px;  overflow: hidden;  width: 1440px; 
-    }
-  
-
-  
-
-    .f .overlap-group {
-       height: 3727px;  left: -1214px;  position: relative;  top: -942px;  width: 3207px; 
-    }
-  
-
-  
-
-    .f .group {
-       height: 3727px;  left: 0;  opacity: 0.1;  position: absolute;  top: 0;  width: 3207px; 
-    }
-  
-
-  
-
-    .f .blur-5 {
-       background: linear-gradient(180deg, rgb(22.92, 105.51, 177.44) 0%, rgb(203, 216, 241) 100%) !important;  border-radius: 790.5px !important;  filter: blur(300px) !important;  height: 1581px !important;  left: 1420px !important;  position: absolute !important;  top: 2146px !important;  width: 1581px !important; 
-    }
-  
-
-  
-
-    .f .blur-instance {
-       background: linear-gradient(180deg, rgb(22.92, 105.51, 177.44) 0%, rgb(203, 216, 241) 100%) !important;  border-radius: 605.25px !important;  filter: blur(600px) !important;  height: 1210px !important;  left: 31px !important;  top: 279px !important;  width: 1210px !important; 
-    }
-  
-
-  
-
-    .f .blur-5-instance {
-       border-radius: 790.5px !important;  filter: blur(300px) !important;  height: 1581px !important;  left: 1354px !important;  mix-blend-mode: color-burn !important;  position: absolute !important;  top: 273px !important;  transform: rotate(-63.00deg) !important;  width: 1581px !important; 
-    }
-  
-
-  
-
-    .f .design-component-instance-node {
-       background: conic-gradient(from 180deg at 50% 50%, rgb(255, 204, 0) 0deg, rgb(41, 205, 106) 90deg, rgb(49, 180, 248) 180deg, rgb(236, 105, 43) 270deg, rgb(243, 103, 41) 360deg) !important;  border-radius: 605.25px !important;  filter: blur(600px) !important;  height: 1210px !important;  left: 31px !important;  top: 280px !important;  width: 1210px !important; 
-    }
-  
-
-  
-
-    .f .vector {
-       height: 63px;  left: 1939px;  position: absolute;  top: 1390px;  width: 63px; 
-    }
-  
-
-  
-
-    .f .blob {
-       height: 54px !important;  left: 1331px !important;  position: absolute !important;  top: 1400px !important;  width: 54px !important; 
-    }
-  
-
-  
-
-    .f .img {
-       height: 57px;  left: 2240px;  position: absolute;  top: 1391px;  width: 62px; 
-    }
-  
-
-  
-
-    .f .vector-2 {
-       height: 73px;  left: 1631px;  position: absolute;  top: 1388px;  width: 77px; 
-    }
-  
-
-  
-
-    .f .blob1-2 {
-       height: 183px !important;  left: 2489px !important;  position: absolute !important;  top: 942px !important;  width: 165px !important; 
-    }
-  
-
-  
-
-    .f .frame {
-       align-items: flex-start;  display: flex;  flex-direction: column;  gap: 48px;  left: 1358px;  position: absolute;  top: 974px;  width: 1154px; 
-    }
-  
-
-  
-
-    .f .blob1-1 {
-       height: 31px !important;  position: relative !important;  width: 31px !important; 
-    }
-  
-
-  
-
-    .f .frame-2 {
-       align-items: flex-start;  display: inline-flex;  flex: 0 0 auto;  flex-direction: column;  gap: 32px;  position: relative; 
-    }
-  
-
-  
-
-    .f .frame-3 {
-       align-items: flex-start;  display: inline-flex;  flex: 0 0 auto;  flex-direction: column;  position: relative; 
-    }
-  
-
-  
-
-    .f .heading {
-       color: var(--coolgreen-800);  font-family: var(--COOL-button-font-family);  font-size: var(--COOL-button-font-size);  font-style: var(--COOL-button-font-style);  font-weight: var(--COOL-button-font-weight);  letter-spacing: var(--COOL-button-letter-spacing);  line-height: var(--COOL-button-line-height);  margin-top: -1.00px;   text-align: center;  position: relative; white-space: nowrap;  width: fit-content;
-       
-    }
-  
-
-  
-
-    .f .frame-4 {
-       align-items: baseline;  display: inline-flex;  flex: 0 0 auto;  gap: 7px;  position: relative; 
-    }
-  
-
-  
-
-    .f .heading-2 {
-       color: var(--coolgreen-800);  font-family: var(--COOL-h2-font-family);  font-size: var(--COOL-h2-font-size);  font-style: var(--COOL-h2-font-style);  font-weight: var(--COOL-h2-font-weight);  letter-spacing: var(--COOL-h2-letter-spacing);  line-height: var(--COOL-h2-line-height);  margin-top: -1.00px;  position: relative;  text-align: center;  white-space: nowrap;  width: fit-content; 
-    }
-  
-
-  
-
-    .f .heading-3 {
-       color: var(--coolgreen-800);  font-family: var(--COOL-button-font-family);  font-size: var(--COOL-button-font-size);  font-style: var(--COOL-button-font-style);  font-weight: var(--COOL-button-font-weight);  letter-spacing: var(--COOL-button-letter-spacing);  line-height: var(--COOL-button-line-height);  position: relative;  text-align: center;  white-space: nowrap;  width: fit-content; 
-    }
-  
-
-  
-
-    .f .heading-4 {
-       color: var(--coolgreen-500);  font-family: var(--COOL-button-font-family);  font-size: var(--COOL-button-font-size);  font-style: var(--COOL-button-font-style);  font-weight: var(--COOL-button-font-weight);  letter-spacing: var(--COOL-button-letter-spacing);  line-height: var(--COOL-button-line-height);  position: relative;  text-align: center;  white-space: nowrap;  width: fit-content; 
-    }
-  
-
-  
-
-    .f .frame-5 {
-       align-items: flex-start;  display: inline-flex;  flex: 0 0 auto;  gap: 16px;  position: relative; 
-    }
-  
-
-  
-
-    .f .button-instance {
-       flex: 0 0 auto !important; 
-    }
-  
-
-  
-
-    .f .line {
-       align-self: stretch;  height: 1px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .frame-6 {
-       align-items: flex-start;  display: inline-flex;  flex: 0 0 auto;  gap: 24px;  position: relative; 
-    }
-  
-
-  
-
-    .f .text-input {
-       align-items: center;  border: 1.5px solid;  border-color: var(--coolgreen-500);  border-radius: 12px;  display: flex;  gap: 8px;  height: 44px;  padding: 12px;  position: relative;  width: 280px; 
-    }
-  
-
-  
-
-    .f .magnifying-glass {
-       height: 24px !important;  margin-bottom: -2.00px !important;  margin-top: -2.00px !important;  position: relative !important;  width: 24px !important; 
-    }
-  
-
-  
-
-    .f .text {
-       background: transparent;  border: none;  color: var(--coolgreen-500);  flex: 1;  font-family: 'Wix Madefor Text', Helvetica;  font-size: 16px;  font-weight: 400;  letter-spacing: 0.16px;  line-height: 24px;  margin-bottom: -0.50px;  margin-top: -3.50px;  padding: 0;  position: relative; 
-    }
-  
-
-  
-
-    .f .dropdown-instance {
-       background-color: unset !important;  border: 1.5px solid !important;  border-color: var(--coolgreen-500) !important;  width: 180px !important; 
-    }
-  
-
-  
-
-    .f .dropdown-2 {
-       color: var(--coolgreen-500) !important;  font-family: 'Wix Madefor Text', Helvetica !important;  font-size: 16px !important;  font-style: unset !important;  font-weight: 400 !important;  letter-spacing: 0.16px !important;  line-height: 24px !important;  margin-top: -1.00px !important; 
-    }
-  
-
-  
-
-    .f .dropdown-3 {
-       height: 24px !important;  margin-left: -13px !important;  position: relative !important;  width: 24px !important; 
-    }
-  
-
-  
-
-    .f .frame-7 {
-       align-items: flex-start;  align-self: stretch;  display: flex;  flex: 0 0 auto;  gap: 38px;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .frame-8 {
-       align-items: center;  border: 1.5px solid;  border-color: var(--coolgreenprimary);  border-radius: 12px;  display: flex;  flex: 1;  flex-direction: column;  flex-grow: 1;  gap: 8px;  overflow: hidden;  position: relative; 
-    }
-  
-
-  
-
-    .f .frame-9 {
-       align-items: center;  align-self: stretch;  background-color: var(--coolgreenprimary);  display: flex;  flex: 0 0 auto;  justify-content: space-between;  padding: 8px 12px;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .heading-5 {
-       color: var(--coolblackprimary);  font-family: 'Wix Madefor Text', Helvetica;  font-size: 20px;  font-weight: 500;  letter-spacing: 0.40px;  line-height: 32px;  margin-top: -1.50px;  mix-blend-mode: multiply;  position: relative;  text-align: center;  white-space: nowrap;  width: fit-content; 
-    }
-  
-
-  
-
-    .f .expand-arrows-wrapper {
-       align-items: center;  display: inline-flex;  flex: 0 0 auto;  gap: 8px;  padding: 8px 4px;  position: relative; 
-    }
-  
-
-  
-
-    .f .expand-arrows {
-       height: 16px !important;  position: relative !important;  width: 16px !important; 
-    }
-  
-
-  
-
-    .f .frame-10 {
-       align-items: center;  align-self: stretch;  display: flex;  flex: 0 0 auto;  flex-direction: column;  gap: 8px;  padding: 0px 8px;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .list {
-       align-items: center;  align-self: stretch;  display: flex;  flex: 0 0 auto;  justify-content: space-between;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .frame-11 {
-       align-items: center;  display: flex;  gap: 8px;  position: relative;  width: 125.25px; 
-    }
-  
-
-  
-
-    .f .icon-instance-node {
-       height: 36px !important;  position: relative !important;  width: 36px !important; 
-    }
-  
-
-  
-
-    .f .center-list-item {
-       align-items: flex-start;  display: inline-flex;  flex: 0 0 auto;  flex-direction: column;  justify-content: center;  position: relative; 
-    }
-  
-
-  
-
-    .f .text-wrapper-2 {
-       color: var(--coolblackprimary);  font-family: var(--COOL-caption-font-family);  font-size: var(--COOL-caption-font-size);  font-style: var(--COOL-caption-font-style);  font-weight: var(--COOL-caption-font-weight);  letter-spacing: var(--COOL-caption-letter-spacing);  line-height: var(--COOL-caption-line-height);  margin-top: -1.00px;  position: relative;  white-space: nowrap;  width: fit-content; 
-    }
-  
-
-  
-
-    .f .text-wrapper-3 {
-       color: var(--coolgreen-500);  font-family: var(--COOL-caption-font-family);  font-size: var(--COOL-caption-font-size);  font-style: var(--COOL-caption-font-style);  font-weight: var(--COOL-caption-font-weight);  letter-spacing: var(--COOL-caption-letter-spacing);  line-height: var(--COOL-caption-line-height);  position: relative;  white-space: nowrap;  width: fit-content; 
-    }
-  
-
-  
-
-    .f .center-list-item-2 {
-       align-items: flex-end;  display: inline-flex;  flex: 0 0 auto;  flex-direction: column;  justify-content: center;  position: relative; 
-    }
-  
-
-  
-
-    .f .line-2 {
-       align-self: stretch;  height: 1px;  margin-left: -0.50px;  margin-right: -0.50px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .line-3 {
-       align-self: stretch;  height: 1px;  margin-bottom: -563.00px;  margin-left: -5857.00px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .rectangle {
-       align-self: stretch;  background-color: var(--coolgreen-100);  height: 48px;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .frame-12 {
-       align-items: center;  border: 1.5px solid;  border-color: var(--coolyellowprimary);  border-radius: 12px;  display: flex;  flex: 1;  flex-direction: column;  flex-grow: 1;  gap: 8px;  overflow: hidden;  position: relative; 
-    }
-  
-
-  
-
-    .f .frame-13 {
-       align-items: center;  align-self: stretch;  background-color: var(--coolyellowprimary);  display: flex;  flex: 0 0 auto;  justify-content: space-between;  padding: 8px 12px;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .frame-14 {
-       align-items: center;  align-self: stretch;  display: flex;  flex: 0 0 auto;  flex-direction: column;  gap: 12px;  padding: 0px 8px;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .frame-15 {
-       align-items: flex-start;  align-self: stretch;  display: flex;  flex: 0 0 auto;  gap: 12px;  justify-content: center;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .frame-wrapper {
-       align-items: flex-start;  box-shadow: var(--button-shadow);  display: flex;  flex: 1;  flex-grow: 1;  gap: 6px;  justify-content: center;  position: relative; 
-    }
-  
-
-  
-
-    .f .frame-16 {
-       align-items: center;  display: flex;  flex: 1;  flex-direction: column;  flex-grow: 1;  gap: 6px;  position: relative; 
-    }
-  
-
-  
-
-    .f .frame-17 {
-       align-items: flex-start;  align-self: stretch;  border: 1px solid;  border-color: var(--coolyellowprimary);  border-radius: 12px;  display: flex;  flex: 0 0 auto;  flex-direction: column;  margin-left: -1.00px;  margin-right: -1.00px;  margin-top: -1.00px;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .div-wrapper {
-       align-items: flex-start;  display: inline-flex;  flex: 0 0 auto;  gap: 8px;  padding: 4px;  position: relative;  z-index: 1; 
-    }
-  
-
-  
-
-    .f .music-wrapper {
-       align-items: center;  background-color: #f0fee9;  border-radius: 200px;  display: inline-flex;  flex: 0 0 auto;  gap: 8px;  padding: 4px;  position: relative; 
-    }
-  
-
-  
-
-    .f .music-1 {
-       height: 12px !important;  position: relative !important;  width: 12px !important; 
-    }
-  
-
-  
-
-    .f .rectangle-2 {
-       align-self: stretch;  height: 116px;  margin-top: -28px;  object-fit: cover;  position: relative;  width: 100%;  z-index: 0; 
-    }
-  
-
-  
-
-    .f .caption-wrapper {
-       align-items: center;  align-self: stretch;  display: flex;  flex: 0 0 auto;  gap: 8px;  justify-content: space-around;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .text-wrapper-4 {
-       color: var(--coolgreen-800);  font-family: var(--COOL-caption-font-family);  font-size: var(--COOL-caption-font-size);  font-style: var(--COOL-caption-font-style);  font-weight: var(--COOL-caption-font-weight);  letter-spacing: var(--COOL-caption-letter-spacing);  line-height: var(--COOL-caption-line-height);  margin-top: -1.00px;  position: relative;  white-space: nowrap;  width: fit-content; 
-    }
-  
-
-  
-
-    .f .rectangle-wrapper {
-       align-items: flex-start;  align-self: stretch;  display: flex;  flex: 0 0 auto;  flex-direction: column;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .rectangle-3 {
-       align-self: stretch;  height: 116px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .frame-18 {
-       align-items: center;  display: flex;  flex: 1;  flex-direction: column;  flex-grow: 1;  gap: 8px;  position: relative; 
-    }
-  
-
-  
-
-    .f .rectangle-4 {
-       align-self: stretch;  height: 111px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .subcaption {
-       color: var(--coolgreen-500);  font-family: var(--COOL-caption-font-family);  font-size: var(--COOL-caption-font-size);  font-style: var(--COOL-caption-font-style);  font-weight: var(--COOL-caption-font-weight);  letter-spacing: var(--COOL-caption-letter-spacing);  line-height: var(--COOL-caption-line-height);  margin-top: -1.00px;  position: relative;  white-space: nowrap;  width: fit-content; 
-    }
-  
-
-  
-
-    .f .line-4 {
-       align-self: stretch;  height: 1px;  margin-bottom: -287.00px;  margin-left: -6155.00px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .line-5 {
-       align-self: stretch;  height: 1px;  margin-bottom: -351.00px;  margin-left: -6155.00px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .line-6 {
-       align-self: stretch;  height: 1px;  margin-bottom: -415.00px;  margin-left: -6155.00px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .line-7 {
-       align-self: stretch;  height: 1px;  margin-bottom: -479.00px;  margin-left: -6155.00px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .line-8 {
-       align-self: stretch;  height: 1px;  margin-bottom: -543.00px;  margin-left: -6155.00px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .frame-19 {
-       align-items: center;  border: 1.5px solid;  border-color: var(--coolblueprimary);  border-radius: 12px;  display: flex;  flex: 1;  flex-direction: column;  flex-grow: 1;  gap: 8px;  overflow: hidden;  position: relative; 
-    }
-  
-
-  
-
-    .f .frame-20 {
-       align-items: center;  align-self: stretch;  background-color: var(--coolblueprimary);  display: flex;  flex: 0 0 auto;  justify-content: space-between;  padding: 8px 12px;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .list-2 {
-       align-items: center;  align-self: stretch;  display: flex;  flex: 0 0 auto;  justify-content: space-between;  padding: 2px 0px;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .frame-21 {
-       align-items: center;  display: inline-flex;  flex: 0 0 auto;  gap: 8px;  padding: 6px;  position: relative; 
-    }
-  
-
-  
-
-    .f .icon-instance-node-2 {
-       height: 24px !important;  position: relative !important;  width: 24px !important; 
-    }
-  
-
-  
-
-    .f .line-9 {
-       align-self: stretch;  height: 1px;  margin-bottom: -507.00px;  margin-left: -6453.00px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .line-10 {
-       align-self: stretch;  height: 1px;  margin-bottom: -563.00px;  margin-left: -6453.00px;  object-fit: cover;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .frame-22 {
-       align-items: center;  border: 1.5px solid;  border-color: var(--coolorangeprimary);  border-radius: 12px;  display: flex;  flex: 1;  flex-direction: column;  flex-grow: 1;  gap: 8px;  overflow: hidden;  position: relative; 
-    }
-  
-
-  
-
-    .f .frame-23 {
-       align-items: center;  align-self: stretch;  background-color: var(--coolorangeprimary);  display: flex;  flex: 0 0 auto;  justify-content: space-between;  padding: 8px 12px;  position: relative;  width: 100%; 
-    }
-  
-
-  
-
-    .f .list-3 {
-       align-items: center;  display: flex;  flex: 0 0 auto;  justify-content: space-between;  position: relative;  width: 244px; 
-    }
-  
-
-  
-
-    .f .center-list-item-3 {
-       align-items: flex-start;  display: inline-flex;  flex: 0 0 auto;  flex-direction: column;  justify-content: center;  margin-right: -4.75px;  position: relative; 
-    }
-  
-
-  
-
-    .f .center-list-item-4 {
-       align-items: flex-start;  display: inline-flex;  flex: 0 0 auto;  flex-direction: column;  justify-content: center;  margin-right: -3.75px;  position: relative; 
-    }
-  
-
-  
-
-    .f .frame-24 {
-       align-items: center;  display: inline-flex;  flex-direction: column;  gap: 8px;  left: 2506px;  position: absolute;  top: 1001px; 
-    }
-  
-
-  
-
-    .f .mask-group {
-       height: 96px;  position: relative;  width: 96px; 
-    }
-  
-
-  
-
-    .f .frame-25 {
-       align-items: center;  display: inline-flex;  flex: 0 0 auto;  flex-direction: column;  position: relative; 
-    }
-  
-
-  
-
-    .f .heading-wrapper {
-       align-items: center;  display: inline-flex;  flex: 0 0 auto;  gap: 4px;  justify-content: center;  position: relative; 
-    }
-  
-
-  
-
-    .f .heading-6 {
-       color: var(--coolgreen-700);  font-family: 'Wix Madefor Text', Helvetica;  font-size: 14px;  font-weight: 400;  letter-spacing: 0.14px;  line-height: 21px;  margin-top: -1.00px;  position: relative;  text-align: center;  text-decoration: underline;  white-space: nowrap;  width: fit-content; 
-    }
-  
-
-  
-
-    .f .rectangle-5 {
-       background: linear-gradient(180deg, rgb(240, 253, 238) 0%, rgba(250, 255, 244, 0) 100%);  height: 97px;  left: 1214px;  position: absolute;  top: 1645px;  transform: rotate(180.00deg);  width: 1450px; 
-    }
-  
-
-  
+.page-wrapper {
+    background-color: #ffffff99;  
+    display: flex;  
+    flex-direction: row;  
+    justify-content: center;  
+    width: 100%; 
+}
+
+.page-wrapper .blur-group {
+    height: 3727px;  
+    left: 0;  
+    opacity: 0.1; 
+    position: absolute;  
+    top: 0;  
+    width: 3207px; 
+}
+
+.page-wrapper .blur-instance {
+    background: linear-gradient(180deg, rgb(22.92, 105.51, 177.44) 0%, rgb(203, 216, 241) 100%) !important;  
+    border-radius: 605.25px !important;  
+    filter: blur(600px) !important;  
+    height: 1210px !important;  
+    left: 31px !important;  
+    top: 279px !important;  
+    width: 1210px !important; 
+ }
+
+ .page-wrapper .blur-5 {
+    background: linear-gradient(180deg, rgb(22.92, 105.51, 177.44) 0%, rgb(203, 216, 241) 100%) !important;  
+    border-radius: 790.5px !important;  
+    filter: blur(300px) !important;  
+    height: 1581px !important;  
+    left: 1420px !important;  
+    position: absolute !important;  
+    top: 2146px !important;  
+    width: 1581px !important; 
+ }
+
+ .page-wrapper .blur-5-instance {
+    border-radius: 790.5px !important;  
+    filter: blur(300px) !important;  
+    height: 1581px !important;  
+    left: 1354px !important;  
+    mix-blend-mode: color-burn !important;  
+    position: absolute !important;  
+    top: 273px !important;  
+    transform: rotate(-63.00deg) !important;  
+    width: 1581px !important; 
+ }
+
+ .page-wrapper .design-component-instance-node {
+    background: conic-gradient(from 180deg at 50% 50%, rgb(255, 204, 0) 0deg, rgb(41, 205, 106) 90deg, rgb(49, 180, 248) 180deg, rgb(236, 105, 43) 270deg, rgb(243, 103, 41) 360deg) !important;  
+    border-radius: 605.25px !important;  
+    filter: blur(600px) !important;  
+    height: 1210px !important;  
+    left: 31px !important;  
+    top: 280px !important;  
+    width: 1210px !important; 
+ }
+
+.wallet-display-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: flex-start !important;
+}
+
+.wallet-display {
+   align-items: flex-start;  
+   display: inline-flex;  
+   flex: 0 0 auto;  
+   flex-direction: column;  
+   gap: 32px;  
+   position: relative; 
+ }
+
+.total-balance{
+    align-items: flex-start;  
+    display: inline-flex;  
+    flex: 0 0 auto;  
+    flex-direction: column;  
+    position: relative; 
+ }
+
+ .balance-heading {
+    color: var(--coolgreen-800);  
+    font-family: var(--COOL-button-font-family);  
+    font-size: var(--COOL-button-font-size);  
+    font-style: var(--COOL-button-font-style);  
+    font-weight: var(--COOL-button-font-weight);  
+    letter-spacing: var(--COOL-button-letter-spacing);  
+    line-height: var(--COOL-button-line-height);  
+    margin-top: -1.00px;   
+    text-align: center;  
+    position: relative; 
+    white-space: nowrap;  
+    width: fit-content;
+ }
+
+ .page-wrapper .currency-display {
+    align-items: baseline;  
+    display: inline-flex;  
+    flex: 0 0 auto;  
+    gap: 7px;  
+    position: relative; 
+ }
+
+ .page-wrapper .number-display{
+    color: var(--coolgreen-800);  
+    font-family: var(--COOL-h2-font-family);  
+    font-size: var(--COOL-h2-font-size);  
+    font-style: var(--COOL-h2-font-style);  
+    font-weight: var(--COOL-h2-font-weight);  
+    letter-spacing: var(--COOL-h2-letter-spacing);  
+    line-height: var(--COOL-h2-line-height);  
+    margin-top: -1.00px;  
+    position: relative;  
+    text-align: center;  
+    white-space: nowrap;  
+    width: fit-content; 
+ }
+
+ .page-wrapper .currency-type {
+    color: var(--coolgreen-800);  
+    font-family: var(--COOL-button-font-family);  
+    font-size: var(--COOL-button-font-size);  
+    font-style: var(--COOL-button-font-style);  
+    font-weight: var(--COOL-button-font-weight);  
+    letter-spacing: var(--COOL-button-letter-spacing);  
+    line-height: var(--COOL-button-line-height);  
+    position: relative;  
+    text-align: center;  
+    white-space: nowrap;  
+    width: fit-content; 
+ }
+
+ .page-wrapper .azero-bal {
+    color: var(--coolgreen-500);  
+    font-family: var(--COOL-button-font-family);  
+    font-size: var(--COOL-button-font-size);  
+    font-style: var(--COOL-button-font-style);  
+    font-weight: var(--COOL-button-font-weight);  
+    letter-spacing: var(--COOL-button-letter-spacing);  
+    line-height: var(--COOL-button-line-height);  
+    position: relative;  
+    text-align: center;  
+    white-space: nowrap;  
+    width: fit-content; 
+ }
+
+ .button-wrapper {
+    align-items: flex-start;  
+    display: inline-flex;  
+    flex: 0 0 auto;  
+    gap: 16px;  
+    position: relative; 
+ }
+
+ .button-wrapper .button-instance {
+    flex: 0 0 auto !important; 
+ }
+
+ .button-wrapper .button-instance:hover {
+    cursor: pointer;
+ }
+
+ .line {
+    align-self: stretch;  
+    width: 100%;
+    height: 1px;  
+    object-fit: cover;  
+    position: relative;  
+    width: 100%; 
+    padding: 30px;
+ }
