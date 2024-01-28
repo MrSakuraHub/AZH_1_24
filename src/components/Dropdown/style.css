@@ -2,6 +2,8 @@
   align-items: center;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown .div {
