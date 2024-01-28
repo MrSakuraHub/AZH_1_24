@@ -8,7 +8,10 @@
 
 .dropdown .div {
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
+
 
 .dropdown .sort-lines-down {
   height: 24px !important;
