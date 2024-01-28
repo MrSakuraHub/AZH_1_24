@@ -8,7 +8,8 @@ export const FormProvider = ({children}) =>{
         1 :'Set a password for your wallet',
         2 :'',
         3 :'Set recovery emails',
-        4 :''
+        4 :'',
+        5 :''
     }
 
     const [page,setPage] = useState (0)
@@ -16,8 +17,10 @@ export const FormProvider = ({children}) =>{
     const [data,setData]= useState({
         ownerEmail:"",
         passWord:"",
+        confirmPass:"",
         recoveryEmail1:"",
         recoveryEmail2:"",
+        recoveryEmail1OTP:"",
         walletOwnerUserName:"",
     });
     const handleChange = e => {
@@ -55,11 +58,13 @@ export const FormProvider = ({children}) =>{
         .filter(key => key.startsWith('wallet'))
         .map(key =>data[key])
         .every(Boolean)
+    const disablePrev = page === 0
+    const prevHide = page === 0 && "remove-button"
     const nextHide = page === Object.keys(title).length - 1 && "remove-button"
     const submitHide = page !== Object.keys(title).length - 1 && "remove-button"
     const disableNext = (page === Object.keys(title).length - 1)||( page === 0 && !canNextPage1) || ( page === 0 && !canNextPage2) ||( page === 0 && !canNextPage3) || ( page === 0 && !canNextPage4)
     return(
-        <FormContext.Provider value={{title,page,setPage,data,setData, canSubmit,handleChange, submitHide,nextHide,disableNext}} >
+        <FormContext.Provider value={{title,page,setPage,data,setData, canSubmit,handleChange, submitHide,nextHide,disableNext,prevHide,disablePrev}} >
             {children}
         </FormContext.Provider>
     )

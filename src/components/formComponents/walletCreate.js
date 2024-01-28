@@ -20,7 +20,7 @@ const WalletCreate = () => {
               pattern="([A-Z])[\w+.]{1,}"
               placeholder="Email@email.com"
           />
-          <p>Already a user? <a href="/login">Log in instead</a></p>
+          <p>Already a user? <a  href="/login">Log in instead</a></p>
         </div>
       </div>
   )

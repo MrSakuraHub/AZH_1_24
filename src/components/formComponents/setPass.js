@@ -7,6 +7,8 @@ const PasswordSet = () => {
         <div className="form-content">
             <label htmlFor="password" className="label">Password</label>
             <input type="password" id="passWord" name="passWord" value={data.passWord} onChange={handleChange} placeholder="password"/>
+            <label htmlFor="confirmPass" className="label">Confirm password</label>
+            <input type="password" id="confirmPass" name="confirmPass" value={data.passWord} onChange={handleChange} placeholder="password"/>
            
           
         </div>
