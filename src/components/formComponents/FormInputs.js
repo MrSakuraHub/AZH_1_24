@@ -16,8 +16,7 @@ const FormInputs = () => {
       2:<SeedPhrasePage/>,
       3:<SecurePage/>,
       4:<RecoveryEmail/>,
-      5:<RecoveryOtp/>,
-      6:<UserName/>,
+      5:<UserName/>,
         //remember to include form pages or individual form components
 
     }
