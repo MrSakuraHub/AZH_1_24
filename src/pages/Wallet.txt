@@ -1,6 +1,11 @@
 import WalletSearch from "../components/WalletSearch";
 import WalletTotal from "../components/WalletTotal";
 
+    
+   <div className="blur-group">
+        <Blur circleClassName="blur-instance" className="blur-5" />
+        <Blur circleClassName="design-component-instance-node" className="blur-5-instance" />
+      </div> 
 
 
 function Wallet () {

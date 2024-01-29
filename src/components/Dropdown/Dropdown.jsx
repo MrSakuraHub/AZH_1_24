@@ -5,6 +5,7 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 
 import PropTypes from "prop-types";
 import React from "react";
+import { useEffect, useState } from 'react';
 import { ChevronDown } from "../../icons/ChevronDown";
 import { Mail16 } from "../../icons/Mail16";
 import { Mail4 } from "../../icons/Mail4";
@@ -19,26 +20,40 @@ export const Dropdown = ({
   property1,
   priority,
   className,
-  visible = true,
+  options = [],
   divClassName,
   text1 = "Send money",
   chevronDownStyleOverrideClassName,
   chevronDownColor = "#3D7064",
 }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [visible, setVisible] = useState(false);
+  const [selectedOption, setSelectedOption] = useState(null);
+  
   return (
     <div className={`dropdown property-1-0-${property1} priority-0-${priority} ${className}`}>
       {priority === "primary" && ["default", "hover"].includes(property1) && (
         <>
-          <div className="div">
+          <div className="div" onClick={() => setIsOpen(!isOpen)} onMouseEnter={() => setVisible(true)} onMouseLeave={() => setVisible(false)}>
             {property1 === "default" && <>{text1}</>}
 
             {property1 === "hover" && (
               <>
                 <>{visible && <SortLinesDown1 className="sort-lines-down" color="#3D7064" />}</>
-                <div className={`text-wrapper ${divClassName}`}>{text1}</div>
+                <div className={`text-wrapper ${divClassName}`}>{selectedOption || text1}</div>
               </>
             )}
           </div>
+          {isOpen && (
+          <ul className="text-wrapper">
+            <li onClick={() => setSelectedOption(null)}>{text1}</li>
+          {options.map((option) => (
+            <li key={option} onClick={() => setSelectedOption(option)}>
+              {option}
+            </li>
+          ))}
+        </ul>
+      )}
           <ChevronDown className={chevronDownStyleOverrideClassName} color={chevronDownColor} />
         </>
       )}
@@ -85,6 +100,7 @@ Dropdown.propTypes = {
   showIcon: PropTypes.bool,
   property1: PropTypes.oneOf(["disabled", "pressed", "hover", "default"]),
   priority: PropTypes.oneOf(["primary", "secondary", "secodary", "tertiary"]),
+  options: PropTypes.array,
   visible: PropTypes.bool,
   text1: PropTypes.string,
   chevronDownColor: PropTypes.string,

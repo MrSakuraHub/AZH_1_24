@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import './index.css';
 import SignUp from './pages/SignUp';
 import Wallet from './pages/Wallet';
+import WalletR from './pages/WalletReference';
 import './styles/style.css';
 import './styles/styleguide.css';
 
