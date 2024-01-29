@@ -27,7 +27,7 @@ export default function Form(){
     const content =(
         <div className='area'>
             <form onSubmit={handleSubmit} className='wallet-form'>
-                <a id="page-numbers" href='#page-numbers' className={`${prevHide}`} onClick={handlePrev}>Step {page + 1} of {Object.keys(title).length - 1}</a>
+                <a id="page-numbers" href='#page-numbers' className={`${prevHide}`} onClick={handlePrev}>Step {page + 1} of {Object.keys(title).length }</a>
                 <header>
                  <h2>{title[page]}</h2>           
                 </header>
