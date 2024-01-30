@@ -9,9 +9,6 @@ import WalletSearch from "../components/WalletSearch";
 import WalletBreakdown from "../components/WalletBreakdown";
 import MaskGroup from "../assets/img/mask-group.png"
 
-
-
-
 function Wallet () {
   
   return (

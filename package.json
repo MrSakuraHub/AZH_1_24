@@ -5,10 +5,21 @@
   "dependencies": {
     "@polkadot/api": "^10.11.2",
     "@polkadot/types": "^10.11.2",
+    "@ant-design/icons": "^5.2.6",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+
+    "antd": "^5.13.3",
+    "axios": "^1.6.7",
+    "ethers": "^6.10.0",
+
     "algo": "^1.0.0",
+
     "polkadot-react-hooks": "^0.60.0-beta.11",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -47,7 +58,7 @@
     "@babel/preset-env": "^7.21.4",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.21.4",
-    "@storybook/addon-essentials": "7.0.3",
+    "@storybook/addon-essentials": "^7.6.10",
     "@storybook/addon-interactions": "7.0.3",
     "@storybook/addon-links": "7.0.3",
     "@storybook/blocks": "7.0.3",
@@ -58,6 +69,6 @@
     "parcel": "^2.8.0",
     "parcel-reporter-static-files-copy": "^1.5.0",
     "process": "^0.11.10",
-    "storybook": "7.0.3"
+    "storybook": "^7.6.10"
   }
 }

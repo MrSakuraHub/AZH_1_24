@@ -1,14 +1,14 @@
-import '../styles/form.css'
-import wallet from '../resources/Wallet EUR.png'
+
+import wallet from '../../resources/Wallet EUR.png'
 
 const SecurePage = () => {
   const content =(
     <>
       <div className="header-place">
         <img src={wallet}/>
-        <h3>Your Wallet is ready!</h3>
+        <h3>Your Wallet is almost ready!</h3>
         <h4>Do not loose it</h4>
-        <p>The last step is to recover your wallet without password</p>
+        <p>The following step is to recover your wallet without password</p>
       </div>
             
     </>
