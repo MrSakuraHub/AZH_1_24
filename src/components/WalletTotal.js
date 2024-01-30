@@ -1,4 +1,8 @@
+import AzeroToUSD from "./AzeroToUSD";
 import { Button } from "./Button/Button";
+import WalletBalance from "./WalletBalance";
+
+
 
 function WalletTotal () {
     return(
@@ -6,10 +10,10 @@ function WalletTotal () {
             <div className="total-balance">
               <div className="balance-heading"> Total Balance </div>
               <div className="currency-display">
-                <div className="number-display"> 2.820 </div>
+                <div className="number-display"> <AzeroToUSD /> </div>
                 <div className="currency-type">USD</div>
               </div>
-              <div className="azero-bal">~120 AZERO</div>
+              <div className="azero-bal">~<WalletBalance /> AZERO</div>
             </div>
             <div className="button-wrapper">
             <Button className="button-instance" 
