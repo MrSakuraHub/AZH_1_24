@@ -27,14 +27,17 @@ export default function Form(){
     const content =(
         <div className='area'>
             <form onSubmit={handleSubmit} className='wallet-form'>
-                <a id="page-numbers" href='#page-numbers' className={`${prevHide}`} onClick={handlePrev}>Step {page + 1} of {Object.keys(title).length }</a>
                 <header>
                  <h2>{title[page]}</h2>           
                 </header>
                 
                 <FormInputs/>
-                <button type="button" className={`button ${nextHide}`} onClick={handleNext} >Next</button>
-                <button type="submit" className={`button ${submitHide}`} onClick={!canSubmit} >Submit</button>
+                <div className='buttons-section'>
+                    <button type="button" className={`${prevHide}`} onClick={handlePrev}>Previous</button>
+                    <button type="submit" className={`button ${submitHide}`} onClick={!canSubmit} >Submit</button>
+                    <button type="button" className={`button ${nextHide}`} onClick={handleNext} >Next</button>                    
+                </div>
+                
             </form>
         </div>
     )
